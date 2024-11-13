@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1, initial-scale=1.0">
+    <title>Маленков</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <header>
+        <div class="logo"><img src="Logo.PNG" alt="Лого" class="logoimg">
+            <h1>ABL</h1></div>
+        </div>
+        <nav>
+            <ul>
+                <a href="https://github.com/Mangyst920/2" target="_blank">Ссылка на гитхаб</a>
+                <a href="https://vk.com/malenkov3" target="_blank">Ссылка на vk</a>
+               
+        </nav>
+    </header>
+    <main>
+        <map name="rect">
+            <area shape="rect" coords="300,50,450,130" href="https://vk.com/malenkov3" alt="">
+            <area shape="circle" coords="50,50,50" href="https://t.me/Malenkov_dev" alt="">
+            <area shape="circle" coords="250,170,40" href="https://i.pinimg.com/736x/34/af/e3/34afe3c48fb643cc975a23c6be12eb00.jpg" alt="">
+        </map>
+        <map name="imagemap">
+        <area shape="rect" coords="440,111,778,308" href="index.html" alt="Прямоугольная область">
+        <area shape="circle" coords="270,200,110" href="index.html" alt="Круглая область">
+    </map>
+    <table>
+        <tbody>
+            <tr>
+                <th>Колонка 1</th>
+                <th>Колонка 2</th>
+                <th>Колонка 3</th>
+                <th>Колонка 4</th> 
+            </tr>
+            <tr class = "cell1">
+                <td colspan="2">Ячейка 11 объединенная с 12</td>
+                <th>Ячейка 13</th>
+                <th>Ячейка 14</th>
+            </tr>
+            <tr class = "cell">
+                <th>Ячейка 21</th>
+                <th>Ячейка 22</th>
+                <th>Ячейка 23</th>
+                <th>Ячейка 24</th>
+            </tr>
+            <tr class = "cell1">
+                <th>Ячейка 31</th>
+                <th>Ячейка 32</th>
+                <th>Ячейка 33</th>
+                <th>Ячейка 34</th>
+            </tr>
+            <tr class = "cell">
+                <th>Ячейка 41</th>
+                <th>Ячейка 42</th>
+                <th>Ячейка 43</th>
+                <th>Ячейка 44</th>
+            </tr>
+            <tr class = "cell1">
+                <th>Ячейка 51</th>
+                <th>Ячейка 52</th>
+                <th>Ячейка 53</th>
+                <th>Ячейка 54</th>
+            </tr>
+            <tr class = "cell">
+                <th>Ячейка 61</th>
+                <th>Ячейка 62</th>
+                <th>Ячейка 63</th>
+                <th>Ячейка 64</th>
+            </tr>
+        </tbody>
+    </table>
+   <ul>
+    <li><a href="kubsu.ru">абсолютную гиперссылку на главную страницу сайта kubsu.ru</a></li> 
+    <li><a href="https://kubsu.ru/?ysclid=m0xifbexyf534301569">абсолютную на главную сайта kubsu.ru в протоколе https</a></li> 
+    <li><a href="index.html"><img src="image.jpg" style="width: 300px; height: 300px;"></a></li> 
+    <li><a href="/">сокращенную ссылку на внутреннюю страницу</a></li> 
+    <li><a href="/index.html">сокращенную ссылку на главную страницу</a></li>
+    <li><a href="#p1">ссылку на фрагмент текущей страницы</a></li>
+    <li><a href="./index.html?p1=1&p2=2&p3=3">ссылку с тремя параметрами в URL</a></li>
+    <li><a href="./index.html?id=8542">ссылку с параметром id в URL</a></li>
+    <li><a href="index.html">относительную на страницу в текущем каталоге</a></li>
+    <li><a href="about/index.html">относительную на страницу в каталоге about;</a></li>
+    <li><a href="../index.html">относительную на страницу в каталоге уровнем выше текущего</a></li>
+    <li><a href="../../index.html"> относительную на страницу в каталоге двумя уровнями выше</a></li>
+     <li><img src="Photo.png" usemap="#imagemap" alt="Карта изображения" class="kartinka"></li> 
+    <li><a href="text.html#bottom">ссылку на фрагмент страницы стороннего сайта;</a></li>
+    <li><a href="">ссылку с пустым href</a></li>
+    <li><a>ссылку без href;</a></li>
+    <li><a href="" rel="nofollow">ссылку, по которой запрещен переход поисковикам;</a></li>
+    <li><a href="" rel="nofollow sponsored">запрещенную для индексации поисковиками; </a></li>
+    <li><ol>
+                <li><a href="index.html" title="Описание первой ссылки">Первая ссылка</a></li>
+                <li><a href="index.html" title="Описание второй ссылки">Вторая ссылка</a></li>
+            </ol></li>
+    <li><a href="ftp://pete@ftp.someserver.com/zadanie.txt">ссылку на файл на сервере FTP с авторизацией;</a></li>
+</ul>
+
+        
+<div class="forma">
+    <h1>Форма</h1>
+    <form action="index.html" method="post">
+        <input type="text" name="name" placeholder="ФИО">
+        <input type="tel" name="tel" placeholder="Номер телефона">
+        <input type="email" name="email" placeholder="Email">
+        <p>Дата рождения:</p>
+        <input type="date" name="birth">
+        <p>Пол</p>
+        <div class="gender">
+            <label for="male">Муж.<input type="radio" id="male" name="gender" value="male">
+            </label>
+
+            <label for="female">Жен.<input type="radio" id="female" name="gender" value="female">
+            </label>
+            
+        </div>
+        <p>Любимый язык программирования:</p>
+        <select id="prog" multiple name="lang[]">
+            <option value="Pascal">Pascal</option>
+            <option value="C">C</option>
+            <option value="C++">C++</option>
+            <option value="JavaScript">JavaScript</option>
+            <option value="PHP">PHP</option>
+            <option value="Python">Python</option>
+            <option value="Java">Java</option>
+            <option value="Haskel">Haskel</option>
+            <option value="Clojure">Clojure</option>
+            <option value="Prolog">Prolog</option>
+            <option value="Scala">Scala</option>
+        </select>
+
+        <textarea name="bio" id="bio">Биография</textarea>
+        <div class="checkbox">
+            <label for="yes"><input type="checkbox">С контрактом ознакомлен(а)</label>
+        </div>
+        <input class="button" type="submit" value="Отправить">
+    </form>
+</div>
+    </ul>
+    </form>
+</main>
+<footer>
+    <div class="padval">
+        <p>(с) Маленков Андрей Андреевич 2003</p>
+    </div>
+</footer>
+</body>
+</html>
+</body>
+</html>
