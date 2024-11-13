@@ -129,7 +129,9 @@ footer {
         width: 100%;
         text-align: center;
     }
-
+    ul{
+        margin-top: 500px;
+    }
     .logoimg {
         width: 60px;
         height: 60px;
@@ -139,7 +141,9 @@ footer {
         width: 100%;
         padding: 10px;
     }
-
+    .forma{
+        margin-top: 1400px;
+    }
     form {
         width: 100%;
         padding: 10px;
@@ -147,5 +151,8 @@ footer {
     .kartinka{
         width: 300px;
         height: 300px;
+    }
+    table{
+        margin-top: -1700px;
     }
 }
